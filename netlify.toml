@@ -1,10 +1,7 @@
 # Netlify configuration for Next.js (Mahaveer Driving Training School)
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
 [build.environment]
   NODE_VERSION = "20"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
